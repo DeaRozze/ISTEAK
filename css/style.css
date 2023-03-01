@@ -17,7 +17,6 @@ body {
 .background {
     background-position: center;
     background-size: cover;
-   
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/background/image4\ 1.jpg);
 }
 
@@ -579,8 +578,11 @@ figure {
 .footer__contact {
     display: flex;
     align-items: center;
-    gap: 13px;
+}
 
+.footer__contacts-link{
+    display: flex;
+    gap: 15px;
 }
 
 .footer__box {
